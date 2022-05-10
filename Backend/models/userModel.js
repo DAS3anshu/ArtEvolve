@@ -7,7 +7,7 @@ const schema = new mongoose.Schema({
     password : String,
     username : String,
     age : Number,
-    createAt : { type : Date, default: new Date() },
+    createdAt : { type : Date, default: new Date() },
 });
 
 // create model
