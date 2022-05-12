@@ -3,7 +3,7 @@ const express = require("express");
 const UserRouter = require("./routers/UserRouter");
 const ArtworkRouter = require("./routers/ArtworkRouter");
 const ExhibitionRouter = require("./routers/ExhibitionRouter");
-const utilRouter = require("./routers/utilRouter");
+const utilRouter = require("./routers/util");
 const cors = require("cors");
 
 
